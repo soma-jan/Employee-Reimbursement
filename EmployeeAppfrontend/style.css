@@ -1,0 +1,161 @@
+body {
+  background-color: #d0d9cd;
+}
+form {
+  border: 3px solid #f1f1f1;
+  background-color: #aefff1;
+  padding:  20px 20px 20px 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  height: 50px;
+  text-align: center;
+  color: #fefefe;
+  padding: 10px, 0, 10px, 0;
+}
+.container {
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 50px;
+
+  width: 60%;
+}
+h1 {
+  display: block;
+  font-size: 17px;
+}
+#error-msg {
+  display: block;
+}
+#error-amt {
+  display: block;
+}
+#success {
+  display: block;
+}
+
+/* Full-width inputs */
+input[type='text'],
+input[type='password'],
+input[name='amount'],
+input[name='desc'],
+select {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#password,#username{
+ width: 250px;
+ 
+}
+select {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#dbutton {
+  background-color: #3b8fa1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.button {
+  background-color: #3b8fa1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+td,
+th {
+  border: 1px solid #3b8fa1;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #333;
+  color: #fefefe;
+}
+
+tr {
+  background-color: #aefff1;
+}
+/* The Modal (background) */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #aefff1;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

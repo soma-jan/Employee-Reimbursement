@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revature.Testcases.ReimbursementServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-03T15:58:15" hostname="DESKTOP-VKFA5UJ" time="26.997">
+  <properties/>
+  <testcase name="getAllReimbursementInvalidUserId()" classname="com.revature.Testcases.ReimbursementServiceTest" time="26.866"/>
+  <testcase name="addReimbursementManager()" classname="com.revature.Testcases.ReimbursementServiceTest" time="0.124"/>
+  <testcase name="addReimbursementInvalidUserId()" classname="com.revature.Testcases.ReimbursementServiceTest" time="0.002"/>
+  <testcase name="addReimbursementInvalid()" classname="com.revature.Testcases.ReimbursementServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

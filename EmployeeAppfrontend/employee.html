@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Reimbursement | Employee Page</title>
+     <div class="topnav">
+      <h2>Welcome to the Employee Portal</h2>
+ 
+    </div>
+
+</head>
+<body>
+
+
+     <h3 id="sucessmsg"></h3>
+    <h3 id="err-msg"></h3>
+    <table id="rembursement-tbl">
+       
+        <thead>
+           <th>Submitted By</th>
+            <th> Amount</th>
+             <th> Description</th>
+            <th>Submitted On</th>
+            <th>Type</th>
+             <th>Approved By</th>
+            <th>Rembursement Receipt</th>
+            <th>Status</th>
+             <th>Resolved On</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+  
+
+</div>
+    
+  <!-- Trigger/Open The Modal -->
+<button class="button" id="myBtn">Add Reimbursement</button>
+<button class="button" id="logout-btn">Logout</button>
+<div id="myModal" class="modal">
+ <div id  class="modal-content">
+    <span class="close">&times;</span>
+    
+
+<div>
+  <h3>Add Reimbursement</h3>
+  <form>
+    
+    <label for="Amount">Amount</label>
+    <input id="amount" type="text"  name="amount" placeholder="Amount">
+    <span id="error-amt"></span>
+
+    <label for="Description">Description</label>
+    <input type="text" id="desc" name="desc" placeholder="Description">
+     <span id="error-desc"></span>
+
+    <label for="type">Type</label><br>
+    <select id="type" name="type">
+      <option value="lodging">LODGING</option>
+      <option value="travel">TRAVEL</option>
+      <option value="food">FOOD</option>
+      <option value="other">OTHER</option>
+    </select><br>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+   <br><br>
+   <button class="button" id="addbtn" type="submit">Submit</button>
+    <p id="addsucess"></p>
+  </form>
+</div>
+
+  </div>
+</div>
+</div>
+
+     
+
+    <script src="employee.js"></script>
+    <script src="add.js"></script>
+</body>
+</html>
